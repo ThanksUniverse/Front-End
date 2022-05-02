@@ -33,3 +33,4 @@ GIT
 			Git add *: Adicionar todos os arquivos que foram alterados antes de dar o commit
 			Git commit -m 'name': Da commit para o Github com o nome entre parênteses
 			Git push: Atualiza os arquivos para o github
+			Git pull: Puxa atualizações do repositório Github
