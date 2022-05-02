@@ -74,3 +74,6 @@ GIT
 
 			Nano - Pasta
 			Touch - Criar
+
+
+			<!--TODO:Lembrar de sempre colocar o responsivo por último e COMEÇAR a utilizar display flex-->
