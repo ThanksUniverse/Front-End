@@ -1,4 +1,4 @@
-		
+	Hii! Im just learning to code and i dont really know much of how it works but anyways im doing my best here to make it look good 😊, wish me lucky, love you ♥
 		#GIT
 			##Conceitos de Versionamento
 				Histórico
