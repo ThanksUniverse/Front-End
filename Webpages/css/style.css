@@ -1,0 +1,182 @@
+<style> /*Mudei algumas coisas aqui dentro pra mudar a cor do texto de algumas partes e o fundo*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111; /* Eu não sei como preencher o site então fui ver como deixa o fundo preto */
+  font-size: 62.5%;
+  font-size: 1rem;
+}
+
+/* Homework Forms */
+
+.homework [type="text"], [type="email"], textarea {
+  width: 97%;
+  padding: 5px;
+  background: #333;
+  font-family: Whitney, sans-serif;
+  font-size: .8rem;
+  color: white;
+}
+
+.homework p, h1 {
+  text-align: center;
+}
+
+.homework form div {
+  font-size: 1.4rem;
+  border-bottom: 2px solid gray;
+  margin: 2rem;
+}
+
+.homework label {
+  font-size: 1.4rem;
+  color: #ccc;
+  position: relative;
+}
+
+.homework input {
+  color: white;
+}
+
+.homework [type="submit"] {
+  background-color: lightseagreen;
+  border: none;
+  color: whitesmoke;
+  padding: 12px 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  left: 16.8rem;
+}
+
+#move {
+  transition: 0.5s;
+}
+
+#move::hover {
+  box-shadow: 3px black;
+  right: 10rem;
+  background-color: white;
+  color: black; /* SET COLOR IN BLACK */
+}  
+
+.homework [type="checkbox"], [type="radio"] {
+  margin-left: 1.6rem;
+  transform: scale(1.5);
+}
+
+.homework select {
+  margin-bottom: 1rem;
+  margin-left: 1.3rem;
+  transform: scale(1.5);
+}
+
+.homework nav li{
+  border-bottom: 2px solid gray;
+  width: 99%;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  background: #777;
+}
+
+/* Fix for WhitePages to be Black*/
+.whitepage *{
+  text: white;
+  color: white;
+  list-style-type: unset; 
+  text-align: unset;
+}
+
+.whitepage a, table, tr, td{
+  color: cornflowerblue;
+  width: ;
+}
+
+.whitepage nav {
+  background: #111;
+  width: 100%;
+}
+
+.nav2 {
+  float: right;
+}
+
+.logo {
+  width: 500px;
+  height: 250px;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  bottom: 700px;
+  right: 1200px;
+}
+
+/* Style the header */
+header {
+  background-color: #222;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-left: -10px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  text-align: center;
+  float: left;
+  width: 10%;
+  background: #444;
+  padding: 10px;
+  position: relative;
+  left: -10px;
+}
+
+/* Style the list inside the menu */
+ol, li, ul {
+  list-style-type: none; 
+  text-align: center;
+  position: relative;
+  left: -9px;
+}
+
+article {
+  float: left;
+  padding: 10px 0px 0px 10px;
+  background-color: #111;
+  color: #ccc;
+}
+
+/* Clear floats after the columns */
+section::after {
+  background: #ccc;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #222;
+  padding: 6px;
+  text-align: center;
+  color: white;
+  margin-left: -10px;
+}
+
+a {
+  color: #000;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article, nav.nav2{
+    width: 100%;
+    height: auto;
+  }
+}
+</style>

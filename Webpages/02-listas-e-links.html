@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Listas e Links</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>	
+	<body class="whitepage black" id="listas-e-links">
+		<header>
+			<h1>Listas e Links</h1>
+		</header>
+		<div id="listas-e-links">
+			<h2 id="list1">Lista não ordenada</h2>
+			<ul> <!--Unordered List-->
+				<li>Brasil  <!--Sublista é só abrir outra list dentro de um <li>-->
+					<ol>
+						<li>São Paulo
+							<dl>
+								<dt>São Paulo</dt>
+									<dd>Capital de São Paulo</dd>
+							</dl>
+						</li> <!--List Items-->
+						<li>Rio de Janeiro</li>
+						<li>Minas Gerais</li>
+						<li>Pará
+							<dl>
+								<dt>Belém</dt>
+									<dd>Capital do Pará</dd>
+							</dl>
+						</li>
+					</ol>
+				</li>
+				<li>Argentina</li>
+				<li>Uruguai</li>
+				<li>Paraguai</li>
+			</ul>
+			<h2 id="list2">Lista ordenada</h2>
+			<ol> <!--Ordered List-->
+				<li>Corinthians</li>
+				<li>Palmeiras</li>
+				<li>Santos</li>
+				<li>São Paulo</li>
+			</ol>
+			<h2 id="list3">Lista de definições</h2>
+			<dl> <!--Description List-->
+				<dt>Televisão</dt>
+					<dd>40 Polegadas, SmartTV...</dd>
+					<dd>127 volts</dd>
+				<dt>Computador</dt>
+					<dd>USB, 19 polegadas, Core I5</dd>
+			</dl>
+
+		</div>
+		<div id="links-e-listas">
+			<h3>Links</h3>
+			<nav>
+				<ol>
+					<li><a target="blank" href="https://ebaconline.com.br">EBAC</a></li>
+					<li><a href="#top">Voltar ao topo da página</a> <!--#TOP Voltar ao topo--></li>
+					<li><a href="#list1">Voltar a Lista não ordenada</a></li>
+					<li><a href="#list2">Voltar a Lista ordenada</a></li>
+					<li><a href="#list3">Voltar a Lista de definições</a></li>
+				</ol>
+			</nav>
+			<div id="home">
+				<strong>Voltar ao inicio:</strong> <br>
+				<a href="01-inico.html">
+					<img src="images/home.png" alt="Home" height="50" width="50" style="max-width: 100%">
+				</a>
+			</div>
+	
+		</div>
+		<footer id="listas-e-links">
+			<p>
+				<em>Author: </em>
+				<a href="homepage-english.html">
+					<strong>Pedro</strong>
+				</a>
+			</p>
+		</footer>
+
+	</body>
+</html>

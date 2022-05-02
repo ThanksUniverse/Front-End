@@ -1,0 +1,183 @@
+/*Mudei algumas coisas aqui dentro pra mudar a cor do texto de algumas partes e o fundo*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Vector, 'Open Sans', Arial, sans-serif;
+  background-color: #111; /* Eu não sei como preencher o site então fui ver como deixa o fundo preto */
+  font-size: 62.5%;
+  font-size: 1rem;
+  color: white;
+  background-image: url("../images/background.png"); 
+}
+
+@font-face {
+  font-family: Vector;
+  src: url(../fonts/Vector.ttf)
+}
+
+input[type="text"], [type="email"], textarea {
+  width: 97%;
+  padding: 5px;
+  background: #0f0712;
+  font-size: .8rem;
+  color: white;
+  transition: width .35 ease-in-out;
+  width: 200px;
+  border-radius: 1rem;
+}
+
+input[type=text]:hover, input[type="email"]:hover, textarea:hover {
+  border: solid 2px lightblue;
+  border-radius: 1rem;
+}
+
+input[type=text]:focus, input[type="email"]:focus, textarea:focus {
+  width: 350px;
+  border-radius: 1rem;
+}
+
+::placeholder {
+  color: rgba(210, 210, 210, .8);
+}
+
+p, h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #F8F7F9;
+}
+
+#country{
+  position: relative;
+  left: 2rem;
+}
+
+form div {
+  font-size: 1.4rem;
+  border-bottom: 2px solid gray;
+  margin: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+label {
+  font-size: 1.4rem;
+  color: #ccc;
+  position: relative;
+}
+
+input {
+  color: white;
+}
+
+[type="submit"] {
+  background: transparent;
+  border: solid 1px green;
+  color: whitesmoke;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+#move {
+  box-shadow: 10px black;
+}
+
+#move:hover {
+  background-color: white;
+  color: black;
+}  
+
+/* Style the header */
+header {
+  background: transparent;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-decoration: underline dotted white 5px;
+  margin: auto;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+nav li {
+  padding: 0px 50px;
+  width: 100%;
+  font-size: 1.1rem;
+  background:transparent;
+  display: inline;
+}
+
+nav li:hover {
+  background: rgba(240, 240, 240, 0.1);
+  border-radius: 1.5rem;
+}
+
+nav li:active {
+  background: rgba(60, 10, 40, 1.0);
+}
+
+/* Style the list inside the menu */
+ol, li, ul {
+  list-style-type: none; 
+  text-align: center;
+}
+
+article {
+  width: 40%;
+  padding: 10px 0px 0px 10px;
+  margin: auto;
+  background: transparent;
+}
+
+/* Clear floats after the columns 
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+/* Style the footer */
+footer {
+  background: transparent;
+  text-align: center;
+  color: white;
+  margin-left: -10px;
+}
+
+/* Links and Checkboxes */
+
+[type="checkbox"], [type="radio"] {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+a {
+  color: #7ED8FF;
+  text-decoration: none;
+}
+
+select {
+  margin-bottom: 1rem;
+  margin-left: 1.3rem;
+  transform: scale(1.5);
+  border-radius: 1rem;
+  max-width: 100%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  header, nav, article {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}

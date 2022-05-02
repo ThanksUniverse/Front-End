@@ -1,0 +1,65 @@
+
+div {
+    margin: 40px auto;
+}
+
+/* *Círculo*/
+
+#grafico-01 {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    overflow: visible;
+    border-radius: 50%;
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+/* *Círculo*/
+
+/* !Triangulo*/
+
+#grafico-02 {
+    background: tomato;
+    --transform: rotate(-90deg);  
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 0px;
+}
+
+/* !Triangulo*/
+
+/** Vetorial */
+
+
+#imagem-vetorial {
+    width: 200px;
+}
+
+/** Vetorial */
+
+/** Círculo*/
+
+#circulo {
+    width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 60px 100px 60px;
+    border-block-color: red;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* ? Círculo*/

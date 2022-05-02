@@ -1,0 +1,183 @@
+/* Introdução */
+
+@media (max-width: 600px) {
+    #item, #page-select {
+        width: 100%;
+        padding: 0;
+    }
+    #page-select {
+        margin: 20px !important;
+        border:none !important;
+        height: 600px !important;
+    }
+    #item img {
+        width: 400px !important;
+        height: 450px !important;
+    }
+    #item {
+        overflow-y: hidden;
+    }
+    #introducao * {
+        overflow-x: hidden;
+    }
+    div#navbar {
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+    footer#introducao {
+        display: none;
+    }
+    div#navbar a {
+        padding: 10px 10px;
+        font-size: 1.3rem;
+    }
+    div.selectboxes {
+        border: none;
+    }
+}
+
+@media (max-width: 1326px) {
+    footer#introducao {
+        display: none;
+    }
+    div.selectboxes {
+        border: none;
+    }
+}
+
+/* Listas e Links */
+
+@media (max-width: 950px) {
+    #listas-e-links header, #listas-e-links, #links-e-listas, #listas-e-links footer {
+        width: 100% !important;  
+        margin: 0;   
+    }
+}
+
+/* Formatação de Texto */
+
+@media (max-width: 950px) {
+
+    h1, h2, h3, h4, h5, h6 {
+        width: 100% !important;
+    }
+    
+    #formatacao div {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+/* Tabelas */
+
+@media (max-width: 1200px) {
+    div#table1, div#table2 {
+        width: 100% !important;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+/* Layouts  */
+
+@media (max-width: 556px) {
+    #layouts nav li a{
+        width: 100%;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 528px) {
+    #layouts nav li a {
+        padding: 0px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 2000px) {
+    #layouts article h1 {
+        width: 100%;
+    }
+}
+
+/* Formulários */
+
+@media (max-width: 1050px) {
+    #forms header nav, #forms header, #forms, div#form form {
+        width: 100% !important;
+        height: auto;
+    }
+
+    #forms footer {
+        position: relative !important;
+        width: 100% !important;
+    }
+
+    div#contact {
+        width: 100% !important;
+    }
+
+    div#contact, div#contact p, div#contact em, div#contact a, div#contact img {
+        text-align: left;
+        margin: 0;
+        overflow-y: hidden;
+    }
+
+    #forms header h2 {
+        padding: 30px;
+    }
+
+    div#form form {
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    div#form form {
+        clear: left;
+        width: 100% !important;
+        height: 300px !important;
+    }
+}
+
+/* Homepage  */
+
+@media (max-width: 950px) {
+div#profile {
+    width: 100% !important;
+    margin: 0 !important;
+    height: 200px;
+    }
+div#pages li {
+    display: grid !important;
+    width: 100% !important;
+    text-align: left !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding: 3px !important;
+    margin: 0 auto;
+    }
+div#pages a {
+    padding: 2px 60px !important;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 1rem;
+    }
+div#pages li a {
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    left: 0;
+    }
+.container960 {
+    width: 100% !important;
+    height: 180px !important;
+    }
+.container960a {
+        width: 100% !important;
+        height: auto;
+        }
+.footer0 {
+    width: 100%;
+}
+}

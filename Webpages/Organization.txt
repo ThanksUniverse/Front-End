@@ -1,0 +1,8 @@
+Organização {
+    1. Criar arquivos CSS para se organizar (root):Variáveis -- (responsive): Responsividade para celular -- (configs)
+    2.
+    3.
+    4.
+    5.
+
+}

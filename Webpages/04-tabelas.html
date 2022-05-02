@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Tabelas</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>	
+	<body class="black medium" id="table">
+		<header>
+			<h1>Tabelas</h1>
+		</header>
+		<div id="table1">
+			<table border="1" border-radius:="1rem" width="100%"><!--Tabela--> <!--Border=Quantidade, Width=Largura, Height=Altura-->
+				<thead><!--Table Head-->
+					<tr><!--Table Row-->
+						<th>Coluna 1</th><!--TH inside <thead>-->
+						<th>Coluna 2</th>
+						<th>Coluna 3</th>
+					</tr>
+				</thead>
+				<tbody><!--Table Body-->
+					<tr align="center"><!--align="left,right,center,justify"-->
+						<td>1A</td><!--Table Data-->
+						<td>1B</td>
+						<td>1C</td>
+					</tr>
+					<tr align="right">
+						<td>2A</td>
+						<td>2B</td>
+						<td>2C</td>
+					</tr>
+					<tr>
+						<td>3A</td>
+						<td colspan="2">3BC</td><!--Colspan="Quantidade de Filas que vai ocupar"-->
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">Rodapé da Tabela</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		<h2>Tabela como layout</h2>
+		<div id="table2">
+			<table border="1" width="100%">
+				<tr height="90">
+					<td colspan="4" bgcolor="#FF0FF0" align="center">Cabeçalho</td> <!--bgcolor="Hexadecimal Color Code"-->
+				</tr>
+				<tr height="300">
+					<td width="20" bgcolor="0000FF"></td> <!--<td>Vazio usando width="número" pode ser usado para colunas</td>-->
+					<td width="60%" bgcolor="#BBBBBB">
+					<h2>Coluna 1</h2>
+					<em>Texto<sub>surpresa</sub></em>
+					<p>Texto<sup>surpresa</sup></p>
+					</td>
+					<td bgcolor="#AAAAAA">Coluna 2</td>
+					<td width="20" bgcolor="0000FF"></td>
+				</tr>
+				<tr>
+					<td bgcolor="FF0000" colspan="4">Rodapé</td>
+				</tr>
+			</table>
+		</div>	
+		<div id="tabelas">
+				<strong>Voltar ao inicio:</strong> <br>
+				<a href="01-inico.html">
+					<img src="images/home.png" alt="Home" height="50" width="50" style="max-width: 100%">
+				</a>
+		</div>
+		<footer id="tabelas">
+			<p><em>Author: </em><a href="homepage-english.html"><strong>Pedro</strong></a></p>
+		</footer>
+
+	</body>
+</html>
