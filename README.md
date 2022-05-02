@@ -47,7 +47,33 @@ GIT
 
 
 		### Merge
-		Mescla de branchs 
+		Mescla de branchs - Caso assuma direto você estará assumindo qualquer erro que possa acontecer 
+		Possívelmente terá que resolver conflitos de códigos manualmente
+
+		Git merge main (Mesclar código com o qual você está trabalhando)
 
 		Git checkout -b dev (cria uma branch)
 		Git checkout master (mudar de branch)
+
+		Git flow init
+			Configurar o flow é MUITO importante para começar o desenvolvimento de projetos mais demorados
+
+		Git flow feature/bugfixes/hotfix start
+
+		Git flow feature finish
+
+		### Pull Request
+			Mescla de branchs no repositório
+			Permite code review
+			O repositório resolve os conflitos automaticamente
+
+		## Configurando o GitFlow
+			Git flow init
+			Git flow {feature} start {nome-da-feature}
+			.gitignore
+
+			Nano - Pasta
+			Touch - Criar
+
+
+			<!--TODO:Lembrar de sempre colocar o responsivo por último e COMEÇAR a utilizar display flex-->
