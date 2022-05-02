@@ -48,3 +48,6 @@ GIT
 
 		### Merge
 		Mescla de branchs 
+
+		Git checkout -b dev (cria uma branch)
+		Git checkout master (mudar de branch)
