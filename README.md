@@ -24,13 +24,30 @@ GIT
 			Informações de alteração
 				-após testado todo seu código
 
-		##GitFlow
+		### GitFlow
 			Fluxo do Git
 
 
-		##Comandos:
+		#### Comandos:
 			Git status: Ver o status de arquivos deletados e apagados
 			Git add *: Adicionar todos os arquivos que foram alterados antes de dar o commit
 			Git commit -m 'name': Da commit para o Github com o nome entre parênteses
 			Git push: Atualiza os arquivos para o github
 			Git pull: Puxa atualizações do repositório Github
+			Git checkout -b
+
+
+		##### Branchs
+		Ramificações / Versões pararelas do código
+			-main / master
+				- develop
+			-DOD Definition of Done: Critérios de aceite
+			
+			-versionamento 0.1.x
+
+
+		### Merge
+		Mescla de branchs 
+
+		Git checkout -b dev (cria uma branch)
+		Git checkout master (mudar de branch)
