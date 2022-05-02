@@ -34,6 +34,7 @@ GIT
 			Git commit -m 'name': Da commit para o Github com o nome entre parênteses
 			Git push: Atualiza os arquivos para o github
 			Git pull: Puxa atualizações do repositório Github
+			Git checkout -b
 
 
 		##### Branchs
@@ -44,4 +45,6 @@ GIT
 			
 			-versionamento 0.1.x
 
-			
+
+		### Merge
+		Mescla de branchs 
