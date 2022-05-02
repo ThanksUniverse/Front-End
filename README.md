@@ -77,3 +77,5 @@ Hii! Im just learning to code and i dont really know much of how it works, but a
 
 				<!--Nano - Edit
 				Touch - Criar-->
+
+				AA
