@@ -1,4 +1,4 @@
-Hii! Im just learning to code and i dont really know much of how it works but anyways im doing my best here to make it look good 😊, wish me lucky, love you ♥
+Hii! Im just learning to code and i dont really know much of how it works, but anyways im doing my best here to make it looks good 😊, wish me lucky, ly ♥
 
 
 		#GIT
@@ -50,7 +50,7 @@ Hii! Im just learning to code and i dont really know much of how it works but an
 
 
 			### Merge
-			Mescla de branchs - Caso assuma direto você estará assumindo qualquer erro que possa acontecer 
+			Mescla de branchs
 			Possívelmente terá que resolver conflitos de códigos manualmente
 
 			Git merge main (Mesclar código com o qual você está trabalhando)
@@ -59,7 +59,7 @@ Hii! Im just learning to code and i dont really know much of how it works but an
 			Git checkout master (mudar de branch)
 
 			Git flow init
-				Configurar o flow é MUITO importante para começar o desenvolvimento de projetos mais demorados
+				Configurar o flow é MUITO importante para começar o desenvolvimento de projetos mais longos
 
 			Git flow feature/bugfixes/hotfix start
 
@@ -75,8 +75,5 @@ Hii! Im just learning to code and i dont really know much of how it works but an
 				Git flow {feature} start {nome-da-feature}
 				.gitignore
 
-				Nano - Pasta
-				Touch - Criar
-
-
-				<!--TODO:Lembrar de sempre colocar o responsivo por último e COMEÇAR a utilizar display flex-->
+				<!--Nano - Edit
+				Touch - Criar-->
