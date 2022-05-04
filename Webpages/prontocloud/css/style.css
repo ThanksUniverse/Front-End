@@ -39,6 +39,10 @@ header {
     width: 100%;
 }
 
+div.article {
+    overflow: hidden;
+}
+
 header img {
     filter: drop-shadow(0px 0px 5px #333);
 }
@@ -162,6 +166,7 @@ article#tenho-interesse {
 
 #tenho-interesse h1 {
     border-top: 1px solid var(--primary);
+    margin-top: 33px;
 }
 
 .cog-branding__powered {
@@ -182,4 +187,16 @@ html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root
 
 html .cog-i-cogicon, :root:root:root:root:root .cog-i-cogicon {
     width: 0 !important;
+}
+
+div.article img {
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+}
+
+.cognito {
+    height: 415px !important;
+    overflow: hidden !important;
+    background-color: #f7f7f7;
 }
