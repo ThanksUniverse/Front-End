@@ -154,3 +154,32 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+article#tenho-interesse {
+    display: block;
+    float: right;
+}
+
+#tenho-interesse h1 {
+    border-top: 1px solid var(--primary);
+}
+
+.cog-branding__powered {
+    display: none !important;
+}
+
+.cog-abuse {
+    display: none !important;
+}
+
+html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
+    visibility: hidden !important;
+}
+
+html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+    visibility: hidden !important;
+}
+
+html .cog-i-cogicon, :root:root:root:root:root .cog-i-cogicon {
+    width: 0 !important;
+}
