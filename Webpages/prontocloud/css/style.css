@@ -191,7 +191,7 @@ html .cog-i-cogicon, :root:root:root:root:root .cog-i-cogicon {
 
 div.article img {
     max-width: 100%;
-    width: 100%;
+    width: 80%;
     height: 350px;
 }
 
@@ -199,4 +199,21 @@ div.article img {
     height: 415px !important;
     overflow: hidden !important;
     background-color: #f7f7f7;
+}
+
+@media (max-width: 660px) {
+    section nav, article, section article, article picture img {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+    article#tenho-interesse {
+        width: 100%;
+        display: block;
+        float: none;
+        border: none;
+    }
+
 }
